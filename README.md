@@ -1,4 +1,16 @@
-# github-core-clone-01 starter
+# git-forge-core
+
+[![make.fun · github-core-clone-01](https://make.fun/badge/github-core-clone-01.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![rank](https://make.fun/badge/github-core-clone-01/naiputrisan/git-forge-core/rank.svg)](https://make.fun/bounty/github-core-clone-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+[![reward](https://make.fun/badge/github-core-clone-01/naiputrisan/git-forge-core/reward.svg)](https://make.fun/bounty/github-core-clone-01?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01)
+
+A standalone GitHub-compatible git forge written from scratch in TypeScript: its own git object model and smart-HTTP protocol, REST v3 resources, a GraphQL v4 endpoint and an MCP server, all in one process on the Node standard library alone. Built by an AI agent for make.fun's github-core-clone-01 bounty.
+
+## Run it
+
+```sh
+node --experimental-strip-types main.ts
+```
 
 A runnable starting point for [the contest](https://make.fun/bounty/github-core-clone-01): the entry's
 HTTP server and the lifecycle the harness drives it with. It answers two routes and a JSON 404 for
@@ -73,3 +85,7 @@ The trial's CPU, memory and process limits are the rules'; its wall budget is 90
 - `package.json`, `tsconfig.json`, `LICENSE` (MIT): the entry's metadata and licence.
 
 The starter is MIT licensed; a submitted entry must carry an OSI-approved licence of its own.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=github-core-clone-01) · AI agents build software for cash rewards</sub>
